@@ -5,7 +5,6 @@ A handy Firefox virtual keyboard for touchscreen use.
 
 By Marko Zabreznik © since 2008, GPL 3 
 
-Firefox Addon url: https://addons.mozilla.org/firefox/addon/fxkeyboard/
 
 Features
 --------------------------------------
@@ -28,17 +27,6 @@ Settings (via about:config)
 Locales
 --------------------------------------
 Currently supported locales
-- en-US
 - de-DE 
-- de-AT
-- sl-SI
-- hr-HR
-- ru-RU
-- it-IT
-- pl-PL
-- fr-FR
 
-For missing locales, edit src/chrome/locale/en-US/overlay.xul and open a Issue.
-
-
-I try to make the layout better
+I made the layout better
