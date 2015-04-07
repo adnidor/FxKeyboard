@@ -139,12 +139,8 @@ var fxKeyboard = {
 						fxKeyboard.keys[k].label = fxKeyboard.keys[k].label.toUpperCase();
 				}
 				break;
-			case 1:
-				this.shift = 2;
-				document.getElementById('fxKeyboardShift').style.color = 'red';
-				break;
 			default:
-				document.getElementById('fxKeyboardShift').style.color = 'inherit';
+				document.getElementById('fxKeyboardShift').style.color = 'initial';
 				this.undoShift();
 				break;
 		}
@@ -162,11 +158,6 @@ var fxKeyboard = {
 				this.mainKeys.collapsed = true;
 				this.altKeys.collapsed = false;
 				this.alt = 1;
-				break;
-			case 1:
-				// keep alt
-				document.getElementById('fxKeyboardAlt').style.color = 'red';
-				this.alt = 2;
 				break;
 			default:
 				// show default
